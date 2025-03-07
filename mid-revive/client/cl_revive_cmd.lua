@@ -19,7 +19,6 @@ AddEventHandler('revive:client', function()
         SetEntityHealth(playerPed, GetEntityMaxHealth(playerPed))
         SetPedArmour(playerPed, 0)
         
-        -- Animasi fade in
         DoScreenFadeIn(1000)
         isDead = false
         
